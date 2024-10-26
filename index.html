@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Book Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#featured">Featured Books</a></li>
+                    <li><a href="#new-arrivals">New Arrivals</a></li>
+                    <li><a href="#discounts">Discounts</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Welcome to Our Book Store</h2>
+            <p>Discover your next great read.</p>
+            <a href="#featured" class="btn">Browse Books</a>
+        </div>
+    </section>
+
+    <!-- Featured Books Section -->
+    <section id="featured" class="books">
+        <div class="container">
+            <h2>Featured Books</h2>
+            <div class="book-list">
+                <!-- Book Item -->
+                <div class="book-item">
+                    <div class="book-icon"></div>
+                    <h3>Book Title 1</h3>
+                    <p>$15.99</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <!-- More book items can go here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals Section -->
+    <section id="new-arrivals" class="books">
+        <div class="container">
+            <h2>New Arrivals</h2>
+            <div class="book-list">
+                <!-- Book Item -->
+                <div class="book-item">
+                    <div class="book-icon"></div>
+                    <h3>Book Title 2</h3>
+                    <p>$12.99</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <!-- More book items can go here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Discounts Section -->
+    <section id="discounts" class="books">
+        <div class="container">
+            <h2>Special Discounts</h2>
+            <div class="book-list">
+                <!-- Book Item -->
+                <div class="book-item">
+                    <div class="book-icon"></div>
+                    <h3>Book Title 3</h3>
+                    <p><span class="old-price">$18.99</span> $12.99</p>
+                    <a href="#" class="btn">Buy Now</a>
+                </div>
+                <!-- More book items can go here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Our book store has a wide selection of books for all ages and interests. We pride ourselves on quality and customer satisfaction.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Book Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
